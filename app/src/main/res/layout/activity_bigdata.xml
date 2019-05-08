@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+<TextView android:layout_width="match_parent" android:layout_height="match_parent"
+android:text="\n大数据"
+android:textSize="30dp"
+android:gravity="center"
+android:textStyle="bold"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 一、 摘要\n
+\t\t\t\t大数据（big data），指无法在一定时间范围内用常规软件工具进行捕捉、管理和处理的数据集合，是需要新处理模式才能具有更强的决策力、洞察发现力和流程优化能力的海量、高增长率和多样化的信息资产。 [1]\n
+
+在维克托·迈尔-舍恩伯格及肯尼斯·库克耶编写的《大数据时代》 [2]  中大数据指不用随机分析法（抽样调查）这样捷径，而采用所有数据进行分析处理。大数据的5V特点（IBM提出）：Volume（大量）、Velocity（高速）、Variety（多样）、Value（低价值密度）、Veracity（真实性）。 [3]\n
+二、 大数据结构图 \n"
+                android:textSize="25dp"/>
+
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:src="@mipmap/bigdata_jiegoutu"
+                       android:layout_marginLeft="20sp"
+                       android:layout_marginRight="20sp"
+/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="三、定义"
+                      android:textSize="25dp"/>
+
+
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                        android:src="@mipmap/bigdata_dinyi"
+                       android:layout_marginLeft="20sp"
+                       android:layout_marginRight="20sp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:text="大数据与云计算的关系 [2]\n
+对于“大数据”（Big data）研究机构Gartner给出了这样的定义。“大数据”是需要新处理模式才能具有更强的决策力、洞察发现力和流程优化能力来适应海量、高增长率和多样化的信息资产。 [1]\n
+麦肯锡全球研究所给出的定义是：一种规模大到在获取、存储、管理、分析方面大大超出了传统数据库软件工具能力范围的数据集合，具有海量的数据规模、快速的数据流转、多样的数据类型和价值密度低四大特征。 [4]\n
+大数据技术的战略意义不在于掌握庞大的数据信息，而在于对这些含有意义的数据进行专业化处理。换而言之，如果把大数据比作一种产业，那么这种产业实现盈利的关键，在于提高对数据的“加工能力”，通过“加工”实现数据的“增值”。 [5]
+从技术上看，大数据与云计算的关系就像一枚硬币的正反面一样密不可分。大数据必然无法用单台的计算机进行处理，必须采用分布式架构。它的特色在于对海量数据进行分布式数据挖掘。但它必须依托云计算的分布式处理、分布式数据库和云存储、虚拟化技术。 [2]\n
+随着云时代的来临，大数据（Big data）也吸引了越来越多的关注。分析师团队认为，大数据（Big data）通常用来形容一个公司创造的大量非结构化数据和半结构化数据，这些数据在下载到关系型数据库用于分析时会花费过多时间和金钱。大数据分析常和云计算联系到一起，因为实时的大型数据集分析需要像MapReduce一样的框架来向数十、数百或甚至数千的电脑分配工作。\n
+大数据需要特殊的技术，以有效地处理大量的容忍经过时间内的数据。适用于大数据的技术，包括大规模并行处理（MPP）数据库、数据挖掘、分布式文件系统、分布式数据库、云计算平台、互联网和可扩展的存储系统。
+最小的基本单位是bit，按顺序给出所有单位：bit、Byte、KB、MB、GB、TB、PB、EB、ZB、YB、BB、NB、DB。
+它们按照进率1024（2的十次方）来计算：\n
+1 Byte =8 bit\n
+1 KB = 1,024 Bytes = 8192 bit\n
+1 MB = 1,024 KB = 1,048,576 Bytes\n
+1 GB = 1,024 MB = 1,048,576 KB\n
+1 TB = 1,024 GB = 1,048,576 MB\n
+1 PB = 1,024 TB = 1,048,576 GB\n
+1 EB = 1,024 PB = 1,048,576 TB\n
+1 ZB = 1,024 EB = 1,048,576 PB\n
+1 YB = 1,024 ZB = 1,048,576 EB\n
+1 BB = 1,024 YB = 1,048,576 ZB\n
+1 NB = 1,024 BB = 1,048,576 YB\n
+1 DB = 1,024 NB = 1,048,576 BB\n
+全称：\n
+1 Bit（比特） =Binary Digit\n
+8Bits = 1 Byte（字节）\n
+1,000 Bytes = 1 Kilobyte\n
+1,000Kilobytes = 1 Megabyte\n
+1,000 Megabytes = 1 Gigabyte\n
+1,000 Gigabytes = 1Terabyte\n
+1,000 Terabytes = 1 Petabyte\n
+1,000 Petabytes = 1 Exabyte\n
+1,000Exabytes = 1 Zettabyte\n
+1,000 Zettabytes = 1 Yottabyte\n
+1,000 Yottabytes = 1Brontobyte\n
+1,000 Brontobytes = 1 Geopbyte\n
+            "/>
+
+
+
+
+
+
+
+
+
+
+  <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+  android:text="\n\n\n\n\n\"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
