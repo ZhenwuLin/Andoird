@@ -31,6 +31,35 @@ public class FirstFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        Button b =  (Button)view.findViewById(R.id.lot); //跳转到大数据百科
+        b.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), com.baike.lot.class);
+                startActivity(intent);
+            }
+        });
+        Button c =  (Button)view.findViewById(R.id.ai); //跳转到大数据百科
+        c.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), com.baike.ai.class);
+                startActivity(intent);
+            }
+        });
+        Button d =  (Button)view.findViewById(R.id.blockchain); //跳转到大数据百科
+        d.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), com.baike.blockchain.class);
+                startActivity(intent);
+            }
+        });
+        Button e =  (Button)view.findViewById(R.id.cloud); //跳转到大数据百科
+        e.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), com.baike.cloud.class);
+                startActivity(intent);
+            }
+        });
         return view;
     }
 

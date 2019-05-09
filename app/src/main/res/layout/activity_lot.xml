@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical" >
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nInternet of Things"
+                android:typeface="serif"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="Definition "/>
+
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+
+                android:text="\t\t\t\tThe internet of things (IoT) is a computing concept that describes the idea of everyday physical objects being connected to the internet and being able to identify themselves to other devices. The term is closely identified with RFID as the method of communication, although it also may include other sensor technologies, wireless technologies or QR codes.
+The IoT is significant because an object that can represent itself digitally becomes something greater than the object by itself. No longer does the object relate just to its user, but it is now connected to surrounding objects and database data. When many objects act in unison, they are known as having \u0022ambient intelligence.\u0022\n"
+                android:textSize="20dp"/>
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="Techopedia explains "/>
+
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:text="    The internet of things is a difficult concept to define precisely. In fact, there are many different groups that have defined the term, although its initial use has been attributed to Kevin Ashton, an expert on digital innovation. Each definition shares the idea that the first version of the internet was about data created by people, while the next version is about data created by things. In 1999, Ashton said it best in this quote from an article in the RFID Journal:"
+                android:textSize="20dp"/>
+        <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:text="    If we had computers that knew everything there was to know about things – using data they gathered without any help from us – we would be able to track and count everything, and greatly reduce waste, loss and cost. We would know when things needed replacing, repairing or recalling, and whether they were fresh or past their best."
+                android:textSize="18dp"/>
+
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:text="    Most people think about being connected in terms of computers, tablets and smartphones. IoT describes a world where just about anything can be connected and communicate in an intelligent fashion. In other words, with the internet of things, the physical world is becoming one big information system.n"
+                android:textSize="20dp"/>
+
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="Connected, and secure things "/>
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+
+                android:text="   Smart Things"
+                android:textSize="20dp"/>
+
+        <ImageView
+                android:layout_width="360dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/lot1"/>
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:text="    Internet of Things (IoT) technologies make products and devices more intelligent. These “smart things” are designed to help our lives become easier, better and safer. As these new solutions evolve and advance, so does the need for higher performance, advanced security and power-efficiency—all within a small form factor."
+                android:textSize="20dp"/>
+
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+
+                android:text="   Connected Things"
+                android:textSize="20dp"/>
+
+        <ImageView
+                android:layout_width="360dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/lot2"/>
+
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                 android:text="    The age of the Internet of Things (IoT) drives innovation to connect more and more of our everyday things, from smart devices and smart appliances to industrial equipment and network infrastructure. Reliable, secure and fast connections are key to delivering on the promise of the IoT and depend on the set of connections between the interfacing edge nodes, the gateways and the cloud.
+Our highly-integrated portfolio of solutions is designed to enable your connected IoT products and address the design challenges involved with the compatibility, seamless interoperability and security of these connected things.
+"
+                android:textSize="20dp"/>
+
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+
+                android:text="   Secure Things"
+                android:textSize="20dp"/>
+
+        <ImageView
+                android:layout_width="360dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/lot3"/>
+
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:text="    As more devices become connected through the Internet of Things (IoT), integrated security solutions with the latest cryptographic techniques are critical for preventing sophisticated system attacks and protecting private user information.
+Financial institutions, retailers, and governments depend on secure embedded systems that defend against IoT security breaches. NXP technology helps developers build reliable, secure and trusted IoT equipment. From MCUs to processors, to secure elements, to software and services—NXP provides solutions for ecosystems that require built-in protection.
+"
+                android:textSize="20dp"/>
+
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+
+                android:text="   Edge Computing"
+                android:textSize="20dp"/>
+
+        <ImageView
+                android:layout_width="360dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/lot4"/>
+
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:text="    Edge computing stands to transform the internet of things (IoT) much the same way that cloud computing is transforming enterprise IT. By creating secure, highly programmable and flexible computing systems that enhance both artificial intelligence (AI) and machine learning (ML), we help usher in the era of local AI, where edge nodes are not only smart, but are trained to be aware of their environment and situation, making them capable of operating offline or with limited cloud connectivity.
+NXP platforms offer secure edge computing at the hardware and software level, providing the essential technologies that enable low-power, low-latency, high-throughput solutions to deliver greater efficiencies, convenience, privacy and security.
+Outpacing the demands of today’s networks.
+Today, with increasing network convergence, practically everything is connected, and everyone is consuming data almost everywhere. NXP helps carriers, developers and manufacturers stay ahead of these demands with optimized integrated solutions that serve up the constant stream of data and media that fuels business and commerce.
+"
+                android:textSize="20dp"/>
+
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+
+                android:text="   Artificial Intelligence and Machine Learning"
+                android:textSize="20dp"/>
+
+        <ImageView
+                android:layout_width="360dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/lot5"/>
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:text="    Artificial intelligence (AI) and machine learning (ML) requires an inseparable combination of processing power and software.
+The shift of high-performance processing from the cloud to the edge significantly decreases bandwidth requirements, reduces latency, and maintains privacy. These are the key factors for automotive, industrial, and an infinite range of Internet of Things (IoT) applications.\n
+\t\t\t\tAI opens entirely new opportunities for the automotive industry to help solve global mobility challenges. Working in close collaboration with leading academic institutions, research organizations and pioneering technology firms – NXP is at the forefront in the development of automotive AI solutions.
+"
+                android:textSize="20dp"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:text="\n\n\n\n\n\"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

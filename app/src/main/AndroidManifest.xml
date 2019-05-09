@@ -9,17 +9,25 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="com.baike.cloud">
+        </activity>
+        <activity android:name="com.baike.blockchain">
+        </activity>
+        <activity android:name="com.baike.ai">
+        </activity>
+        <activity android:name="com.baike.lot">
+        </activity>
         <activity android:name="com.baike.bigdata">
         </activity>
         <activity android:name=".SearchActivity">
         </activity>
-        <activity android:name="com.example.fragmentswitcherdemo.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

@@ -6,83 +6,105 @@
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:orientation="vertical" >
-<TextView android:layout_width="match_parent" android:layout_height="match_parent"
-android:text="\n大数据"
-android:textSize="30dp"
-android:gravity="center"
-android:textStyle="bold"/>
         <TextView
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nBig Data"
+                android:typeface="serif"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+        <TextView
+                android:layout_width="400dp"
                 android:layout_height="wrap_content"
-                android:text=" 一、 摘要\n
-\t\t\t\t大数据（big data），指无法在一定时间范围内用常规软件工具进行捕捉、管理和处理的数据集合，是需要新处理模式才能具有更强的决策力、洞察发现力和流程优化能力的海量、高增长率和多样化的信息资产。 [1]\n
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="Definition "/>
 
-在维克托·迈尔-舍恩伯格及肯尼斯·库克耶编写的《大数据时代》 [2]  中大数据指不用随机分析法（抽样调查）这样捷径，而采用所有数据进行分析处理。大数据的5V特点（IBM提出）：Volume（大量）、Velocity（高速）、Variety（多样）、Value（低价值密度）、Veracity（真实性）。 [3]\n
-二、 大数据结构图 \n"
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+
+                android:text="\t\t\t\tBig data refers to a process that is used when traditional data mining and handling techniques cannot uncover
+the insights and meaning of the underlying data. Data that is unstructured or time sensitive or simply very large cannot
+ be processed by relational database engines. This type of data requires a different processing approach called big data,
+ which uses massive parallelism on readily-available hardware.\n     Processing information like this illustrates why big data has become so important:\n"
+                android:textSize="20dp"/>
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:text="    •	Most data collected now is unstructured and requires different
+storage and processing than that found in traditional relational databases\n
+    • Available computational power is sky-rocketing, meaning there are more opportunities to process big data.\n
+    • The Internet has democratized data, steadily increasing the data available while also producing more and more raw data\n"
+                android:textSize="18dp"/>
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:text="    Data in its raw form has no value. Data needs to be processed
+in order to be of valuable. However, herein lies the inherent problem of
+big data. Is processing data from native object format to a usable insight worth the massive capital cost of doing so? Or is there just too much data with unknown values to justify the gamble of processing it with big data tools? Most of us would agree that being able to predict the weather would have value, the question is whether that value could outweigh the costs of crunching all the real-time
+data into a weather report that could be counted on."
+                android:textSize="20dp"/>
+
+
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:text="Architecture"
+                android:textStyle="bold"
                 android:textSize="25dp"/>
 
-            <ImageView android:layout_width="match_parent"
-                       android:layout_height="match_parent"
-                       android:src="@mipmap/bigdata_jiegoutu"
-                       android:layout_marginLeft="20sp"
-                       android:layout_marginRight="20sp"
-/>
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:text=" \t\t\t\tBig data repositories have existed in many forms, often built by corporations with a special need. Commercial vendors historically offered parallel database management systems for big data beginning in the 1990s. For many years, WinterCorp published a largest database report. \n
+\t\t\t\tTeradata Corporation in 1984 marketed the parallel processing DBC 1012 system. Teradata systems were the first to store and analyze 1 terabyte of data in 1992. Hard disk drives were 2.5 GB in 1991 so the definition of big data continuously evolves according to Kryder's Law. Teradata installed the first petabyte class RDBMS based system in 2007. As of 2017, there are a few dozen petabyte class Teradata relational databases installed, the largest of which exceeds 50 PB. Systems up until 2008 were 100% structured relational data. Since then, Teradata has added unstructured data types including XML, JSON, and Avro.
+\t\t\t\tIn 2000, Seisint Inc. (now LexisNexis Group) developed a C++-based distributed file-sharing framework for data storage and query. The system stores and distributes structured, semi-structured, and unstructured data across multiple servers. Users can build queries in a C++ dialect called ECL. ECL uses an \u0022apply schema on read\u0022 method to infer the structure of stored data when it is queried, instead of when it is stored. In 2004, LexisNexis acquired Seisint Inc.[44] and in 2008 acquired ChoicePoint, Inc. and their high-speed parallel processing platform. The two platforms were merged into HPCC (or High-Performance Computing Cluster) Systems and in 2011, HPCC was open-sourced under the Apache v2.0 License. Quantcast File System was available about the same time. \n
+\t\t\t\tCERN and other physics experiments have collected big data sets for many decades, usually analyzed via high performance computing (supercomputers) rather than the commodity map-reduce architectures usually meant by the current \u0022big data\u0022 movement.\n
+\t\t\t\tIn 2004, Google published a paper on a process called MapReduce that uses a similar architecture. The MapReduce concept provides a parallel processing model, and an associated implementation was released to process huge amounts of data. With MapReduce, queries are split and distributed across parallel nodes and processed in parallel (the Map step). The results are then gathered and delivered (the Reduce step). The framework was very successful, so others wanted to replicate the algorithm. Therefore, an implementation of the MapReduce framework was adopted by an Apache open-source project named Hadoop. Apache Spark was developed in 2012 in response to limitations in the MapReduce paradigm, as it adds the ability to set up many operations (not just map followed by reduce).\n
+\t\t\t\tMIKE2.0 is an open approach to information management that acknowledges the need for revisions due to big data implications identified in an article titled \u0022Big Data Solution Offering\u0022.The methodology addresses handling big data in terms of useful permutations of data sources, complexity in interrelationships, and difficulty in deleting (or modifying) individual records. \n
+\t\t\t\t2012 studies showed that a multiple-layer architecture is one option to address the issues that big data presents. A distributed parallel architecture distributes data across multiple servers; these parallel execution environments can dramatically improve data processing speeds. This type of architecture inserts data into a parallel DBMS, which implements the use of MapReduce and Hadoop frameworks. This type of framework looks to make the processing power transparent to the end user by using a front-end application server.
+\t\t\t\tThe data lake allows an organization to shift its focus from centralized control to a shared model to respond to the changing dynamics of information management. This enables quick segregation of data into the data lake, thereby reducing the overhead time. \n
+\t\t\t\tBig data analytics for manufacturing applications is marketed as a\u00225C architecture\u0022 (connection, conversion, cyber, cognition, and configuration). Factory work and Cyber-physical systems may have an extended \u00226C system\u0022:\n"
 
-            <TextView android:layout_width="match_parent"
-                      android:layout_height="match_parent"
-                      android:text="三、定义"
-                      android:textSize="25dp"/>
+                android:textSize="20dp"/>
 
-
-            <ImageView android:layout_width="match_parent"
-                       android:layout_height="match_parent"
-                        android:src="@mipmap/bigdata_dinyi"
-                       android:layout_marginLeft="20sp"
-                       android:layout_marginRight="20sp"/>
-            <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-            android:textSize="25dp"
-            android:text="大数据与云计算的关系 [2]\n
-对于“大数据”（Big data）研究机构Gartner给出了这样的定义。“大数据”是需要新处理模式才能具有更强的决策力、洞察发现力和流程优化能力来适应海量、高增长率和多样化的信息资产。 [1]\n
-麦肯锡全球研究所给出的定义是：一种规模大到在获取、存储、管理、分析方面大大超出了传统数据库软件工具能力范围的数据集合，具有海量的数据规模、快速的数据流转、多样的数据类型和价值密度低四大特征。 [4]\n
-大数据技术的战略意义不在于掌握庞大的数据信息，而在于对这些含有意义的数据进行专业化处理。换而言之，如果把大数据比作一种产业，那么这种产业实现盈利的关键，在于提高对数据的“加工能力”，通过“加工”实现数据的“增值”。 [5]
-从技术上看，大数据与云计算的关系就像一枚硬币的正反面一样密不可分。大数据必然无法用单台的计算机进行处理，必须采用分布式架构。它的特色在于对海量数据进行分布式数据挖掘。但它必须依托云计算的分布式处理、分布式数据库和云存储、虚拟化技术。 [2]\n
-随着云时代的来临，大数据（Big data）也吸引了越来越多的关注。分析师团队认为，大数据（Big data）通常用来形容一个公司创造的大量非结构化数据和半结构化数据，这些数据在下载到关系型数据库用于分析时会花费过多时间和金钱。大数据分析常和云计算联系到一起，因为实时的大型数据集分析需要像MapReduce一样的框架来向数十、数百或甚至数千的电脑分配工作。\n
-大数据需要特殊的技术，以有效地处理大量的容忍经过时间内的数据。适用于大数据的技术，包括大规模并行处理（MPP）数据库、数据挖掘、分布式文件系统、分布式数据库、云计算平台、互联网和可扩展的存储系统。
-最小的基本单位是bit，按顺序给出所有单位：bit、Byte、KB、MB、GB、TB、PB、EB、ZB、YB、BB、NB、DB。
-它们按照进率1024（2的十次方）来计算：\n
-1 Byte =8 bit\n
-1 KB = 1,024 Bytes = 8192 bit\n
-1 MB = 1,024 KB = 1,048,576 Bytes\n
-1 GB = 1,024 MB = 1,048,576 KB\n
-1 TB = 1,024 GB = 1,048,576 MB\n
-1 PB = 1,024 TB = 1,048,576 GB\n
-1 EB = 1,024 PB = 1,048,576 TB\n
-1 ZB = 1,024 EB = 1,048,576 PB\n
-1 YB = 1,024 ZB = 1,048,576 EB\n
-1 BB = 1,024 YB = 1,048,576 ZB\n
-1 NB = 1,024 BB = 1,048,576 YB\n
-1 DB = 1,024 NB = 1,048,576 BB\n
-全称：\n
-1 Bit（比特） =Binary Digit\n
-8Bits = 1 Byte（字节）\n
-1,000 Bytes = 1 Kilobyte\n
-1,000Kilobytes = 1 Megabyte\n
-1,000 Megabytes = 1 Gigabyte\n
-1,000 Gigabytes = 1Terabyte\n
-1,000 Terabytes = 1 Petabyte\n
-1,000 Petabytes = 1 Exabyte\n
-1,000Exabytes = 1 Zettabyte\n
-1,000 Zettabytes = 1 Yottabyte\n
-1,000 Yottabytes = 1Brontobyte\n
-1,000 Brontobytes = 1 Geopbyte\n
-            "/>
-
-
-
-
-
-
+        <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:typeface="serif"
+                android:text="
+•	Connection (sensor and networks)\n
+•	Cloud (computing and data on demand)\n
+•	Cyber (model and memory)\n
+•	Content/context (meaning and correlation)\n
+•	Community (sharing and collaboration)\n
+•	Customization (personalization and value)
+"
+                android:textSize="18dp"/>
 
 
 
