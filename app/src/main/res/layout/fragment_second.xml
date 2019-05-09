@@ -26,11 +26,13 @@
     <Button
             android:id="@+id/button1"
             android:layout_width="370dp"
-            android:layout_height="40sp"
+            android:layout_height="50sp"
             android:textColor="#B6BFC2"
             android:layout_gravity="center"
+            android:drawableRight="@drawable/search"
+            android:textAllCaps="false"
             android:background="@drawable/edit_bg"
-            android:textSize="20sp"
+            android:textSize="23sp"
             android:layout_marginTop="18sp"
             android:text="Click to start searching"
             />

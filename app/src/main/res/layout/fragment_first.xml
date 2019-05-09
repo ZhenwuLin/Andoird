@@ -6,119 +6,114 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:textAllCaps="false"
         android:background="@mipmap/bg">
 
-    <TextView
+
+   <TextView
             android:id="@+id/main_fenlei"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="    Classification"
-            android:layout_marginTop="250sp"
+            android:layout_marginTop="0sp"
             android:textStyle="bold"
-            android:textSize="22sp"/>
-
-    <View
-            android:layout_width="370dp"
-            android:layout_height="2dp"
-            android:layout_below="@+id/rl_wallet"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="#817E7E" />
+         />
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/jianbian"
+            android:gravity="center"
+            android:text="  Encyclopedia"
+            android:textStyle="bold"
+
+            android:textSize="25sp"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/rl_wallet"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:background="#817E7E" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#474747"
             android:textSize="15sp"/>
 
     <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.3"/>
-        <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="AI"
-                android:background="@drawable/jianbian"
-                android:textSize="15sp" />
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.35"/>
-        <Button
-                android:id="@+id/bigdata_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Big Data"
-                android:background="@drawable/jianbian"
-                android:textSize="15sp" />
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.35"/>
-        <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/jianbian"
-                android:text="cloud c"
-                android:textSize="15sp" />
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.3"/>
-    </LinearLayout>
-
-    <LinearLayout
+            android:id="@+id/baike"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="18sp">
+   >
 
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.3"/>
         <Button
+                android:id="@+id/lot"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/jianbian"
+                android:text="LoT"
+                android:textAllCaps="false"
+                android:drawableTop="@drawable/lot"
+                android:background="@null"
+
+                android:textSize="15sp"/>
+
+        <Button
+                android:id="@+id/bigdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/bigdata"
+                android:background="@null"
+                android:textAllCaps="false"
+                android:text="Bigdata"
+                android:textSize="15sp"/>
+
+
+        <Button
+                android:id="@+id/ai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableTop="@drawable/ai"
+                android:textAllCaps="false"
+                android:text="AI"
+                android:textSize="15sp" />
+
+        <Button
+                android:id="@+id/blockchain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableTop="@drawable/blackchain2"
+                android:textAllCaps="false"
                 android:text="Blockchain"
                 android:textSize="15sp" />
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.35"/>
+
         <Button
+                android:id="@+id/cloud"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/jianbian"
-                android:text="LoT"
+                android:background="@null"
+                android:drawableTop="@drawable/cloud"
+                android:textAllCaps="false"
+                android:text="Cloud"
                 android:textSize="15sp" />
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.35"/>
-        <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/jianbian"
-                android:text="Fintect"
-                android:textSize="15sp" />
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.3"/>
+
 
     </LinearLayout>
 
-</LinearLayout>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/rl_wallet"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:background="#817E7E" />
+    </LinearLayout>
 
 

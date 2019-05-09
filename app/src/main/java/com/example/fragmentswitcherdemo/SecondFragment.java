@@ -26,9 +26,10 @@ private View view;
                              @Nullable Bundle savedInstanceState) {
       View view =inflater.inflate(R.layout.fragment_second, container, false);//infinit logo
         TextView main_title=view.findViewById(R.id.main_title);
-        String main_str="<font color='#F56929'>    I</font><color='#3D2B2A'>n</font><font color='#AEF160'>" +
-                "f</font><font color='#4F61D1'>i</font><font color='#AC85F3'>n</font><font color='#2DDDF3'>" +
-                "i</font><font color='#EE1E03'>t</fond>";
+        String main_str="<font color='#FF2F1D'>    I</font><color='#474747'>n</font><font color='#00ff00'>" +
+                "f</font><font color='#4F61D1'>i</font><font color='#C522E0'>n</font><font color='#2DDDF3'>" +
+                "i</font><font color='#FF5349'>t</font>" +
+                "<font color='#4F61D1'>e</font>";
         main_title.setText(Html.fromHtml(main_str));
 
         Button b =(Button)view.findViewById(R.id.button1); //跳转到搜索页面

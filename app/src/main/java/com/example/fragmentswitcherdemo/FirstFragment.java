@@ -24,7 +24,7 @@ public class FirstFragment extends Fragment {
                              @Nullable Bundle savedInstanceState) {
        View view = inflater.inflate(R.layout.fragment_first, container, false);
 
-        Button a = (Button) view.findViewById(R.id.bigdata_1); //跳转到大数据百科
+        Button a =  (Button)view.findViewById(R.id.bigdata); //跳转到大数据百科
         a.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), com.baike.bigdata.class);
